@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">vFood</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="facebook_app_id">351222282362785</string> <string name="fb_login_protocol_scheme">fb351222282362785</string>
+</resources>

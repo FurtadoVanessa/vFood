@@ -43,6 +43,10 @@ public class Main2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         message = (TextView) findViewById(R.id.message);
+        OpenWeather weather = new OpenWeather();
+        String data = weather.getOpenWeatherData("Pocos%20de%20Caldas");
+        Log.e("#########", data);
+
         openApp = (Button) findViewById(R.id.button);
         openApp.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
